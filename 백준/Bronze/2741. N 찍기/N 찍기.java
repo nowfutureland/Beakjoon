@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		Scanner scan = new Scanner(System.in);
 		
-		long N = sc.nextLong();
+		int A = scan.nextInt();
 		
-		for(int i=1; i<=N; i++) {
+		for(int i=1; i<=A; i++) {
 			System.out.println(i);
 		}
-		
 	}
+
 }
